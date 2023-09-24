@@ -1,0 +1,18 @@
+{
+    "class": "FeaturedBannersView",
+    "itemSize": "{263, 148}",
+    "itemCornerRadius": 10,
+    "banners": [{
+            "url": "https://postbox.news/assets/pbbanner.jpg",
+            "title": "PostBox",
+            "package": "com.simplycode.postbox",
+            "hideShadow": false
+        },
+        {
+            "url": "https://postbox.news/assets/testerbanner.png",
+            "title": "Story Tester",
+            "package": "com.simplycode.StoryTester",
+            "hideShadow": false
+        }
+    ]
+}

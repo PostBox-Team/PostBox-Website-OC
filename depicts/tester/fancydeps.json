@@ -1,0 +1,112 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#ED9F4A",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "<div style='line-height: 1.5; box-sizing: border-box; display: block; padding: 1em; background: #ed9e4a; border-radius: 8px; border: 4px solid rgb(246, 246, 246); box-shadow: rgba(0, 0, 0, 0.1) 0 10px 20px; color: #624c33;'>💣 Warning! The app is currently in beta!</div>"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 30
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# PostBox - Jailbreak News. Reimagined.\nPostBox is more than just a news reader. Create your own articles to share your experiences and recommendations throughout the jailbreak community. <br> <br>\n\n### Create your own story\nWith the support of Markdown, any can effortlessly create custom articles for PostBox. We have streamlined the experience so all the processing will be handled by us. <br> <br>\n\n### Curated packages and themes\nPostBox provides featured and curated packages sourced from the jailbreak community. The aim is to advertise popular, new, or underrated packages to the jailbreak community. <br> <br>\n\n### Featured repos and sources\nThe ability to feature repositories on our app is a feature that other package managers don’t have. You can discover new repos to add to other package managers as well as power PostBox’s robust search function.\n"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Screenshots"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 14,
+                    "itemSize": "{160, 346}",
+                    "screenshots": [
+                        {
+                            "url": "https://postbox.news/depicts/app/screenshot1.png",
+                            "accessibilityText": "Screenshot 1"
+                        },
+                        {
+                            "url": "https://postbox.news/depicts/app/screenshot2.png",
+                            "accessibilityText": "Screenshot 2"
+                        },
+                        {
+                            "url": "https://postbox.news/depicts/app/screenshot3.png",
+                            "accessibilityText": "Screenshot 3"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "0.2 (beta~2)",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Dec 22, 2020",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Different",
+                    "title": "Built"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Links"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Follow @PostBoxTeam on Twitter",
+                    "action": "https://twitter.com/postboxteam"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Our Official Website",
+                    "action": "https://postbox.news"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 12
+                },
+                {
+                    "class": "DepictionImageView",
+                    "URL": "https://postbox.news/CydiaIcon.png",
+                    "width": 75,
+                    "height": 75,
+                    "cornerRadius": 0,
+                    "alignment": 1
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# Updates\n### PostBox 0.2\n#### Front-End\n- Pressing on Tab icons now brings to root view\n- Properly centered text in Credits\n- Added FAQ sections\n- Added Wish List\n- Added Package of The Week card support\n- Added more r/jailbreak content\n- Added support for Reddit images\n- Added third-party card option toggles in Settings (Inactive)\n- Improved Filter View usability\n- Improved Search Type interface\n- Improved font size, weight, and padding in many areas\n- Improved sizing on 4.7 inches devices or smaller\n- Updated Credits and Donate layout logic\n- Updated App Log Navigation Bar\n- Updated logic for app background color\n- Updated X button in modals\n- Updated Welcome Screen content\n- Updated Welcome Screen \"Let's Go\" button background color\n- Updated animation damping\n- Fixed Navigation Bar not behaving properly on iOS 13\n- Fixed Action Sheet text not showing\n- Fixed font size of text under Navigation Bar\n- Fixed constant white text\n- Fixed Story content overflow issues\n- Fixed missing haptic feedback\n- Fixed inconsistent background color for Search View\n- Fixed unwanted animations\n- Reduced shadow intensity\n- Easter eggs\n\n#### Back-End\n\n- r/jailbreak content now opens in Reddit\n- Significantly improved speed and logic of search function\n- Improved Filter View usability\n- Fixed disabled toggles for Settings on first launch\n- Fixed improper pricing for packages\n- Fixed repos without SSL will not refresh (invalid for AppStore)\n- Fixed package redirection to package managers\n- Fixed toggle buttons activating wrong toggles\n- Fixed PostBox stories not being indexed in database/search\n- Fixed unable to browse repos in Search View on iOS 13\n- Fixed blank/incomplete depictions when no Sileo Depictions are available\n- Fixed incorrect sizing for iOS 13 Story Views\n- Fixed search not filtering through Maintainer\n\n### PostBox 0.1\n#### Front-End\n\n- Initial release\n- Support for custom stories\n- Support for r/jailbreak content\n\n#### Back-End\n\n- Initial release\n- Support for custom stories\n- Support for r/jailbreak content\n\n"
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

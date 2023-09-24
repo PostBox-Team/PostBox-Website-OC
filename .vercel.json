@@ -1,0 +1,9 @@
+{
+    "routes": [
+        { "handle": "filesystem" },
+        { "src": "/(.*)", "status": 404, "dest": "/" },
+        { "src": "/./Packages", "dest": "/Packages" },
+        { "src": "/./Release", "dest": "/Release" },
+        { "src": "/./CydiaIcon.png", "dest": "/CydiaIcon.png" }
+    ]
+}

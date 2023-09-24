@@ -1,0 +1,11 @@
+# Project
+*.css.map
+*.scss
+.parcel-cache
+.vscode
+.vercel
+.cache
+debcreation
+
+# System
+.DS_Store

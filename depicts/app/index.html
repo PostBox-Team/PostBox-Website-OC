@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PostBox depictions</title>
+
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            a {
+                color: #ff9500;
+            }
+
+            html,
+            body {
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                line-height: 1.5;
+                font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont,
+                    sans-serif;
+            }
+
+            p {
+                color: #777777;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                margin: 0.2em 0;
+            }
+
+            li::marker {
+                content: "\279C   ";
+                font-weight: 800;
+                color: #ed9e4a85;
+            }
+
+            li {
+                color: #777777;
+            }
+
+            strong {
+                color: black;
+            }
+
+            hr {
+                display: block;
+                border: 0;
+                height: 3px;
+                background: #ff9500;
+                opacity: 0.5;
+                border-radius: 5px;
+            }
+
+            banner {
+                display: block;
+                padding: 1em;
+                background: #ed9e4a85;
+                border-radius: 8px;
+                border: 4px solid rgb(246, 246, 246);
+                box-shadow: rgba(0, 0, 0, 0.1) 0 10px 20px;
+                color: #624c33;
+            }
+
+            .container {
+                width: 100%;
+                max-width: 500px;
+                margin: 0 auto;
+                overflow-x: hidden;
+            }
+
+            .container > *:not(.screenshots) {
+                margin: 15px 20px;
+            }
+
+            .screenshots {
+                display: flex;
+                width: 100%;
+                overflow-x: auto;
+                padding-left: 20px;
+                z-index: 2;
+                -webkit-user-drag: none;
+                user-select: none;
+            }
+
+            .screenshots::-webkit-scrollbar {
+                display: none;
+            }
+
+            .screenshots img {
+                box-sizing: content-box;
+                min-width: 180px;
+                height: 390px;
+                margin-right: 10px;
+                object-fit: contain;
+                border-radius: 25px;
+                border: 4px solid rgb(246, 246, 246);
+            }
+
+            .screenshots > .fill {
+                width: 20px;
+                display: block;
+                opacity: 0;
+            }
+
+            .changelog > ul,
+            .changelog ol {
+                margin: 0.5em 0;
+            }
+
+            .changelog-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .changelog-header > span {
+                opacity: 0.4;
+            }
+
+            hr[light] {
+                opacity: 0.2;
+                height: 1px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <banner> 💣 Warning! The app is currently in beta! </banner>
+
+            <h1>PostBox, not a package manager.</h1>
+            <p>
+                PostBox brings the latest jailbreak news to your fingertips. Use
+                PostBox to access your favorite packages and repositories while
+                unjailbroken, all without the hassle of constantly searching on
+                the web. With in-app .deb download and extraction, you can
+                install themes using only your phone.
+            </p>
+            <p>Keep reading to see what PostBox has to offer!</p>
+            <hr />
+            <h3>.deb download and extraction</h3>
+            <p>
+                Tired of using a PC? Try downloading and extracting packages
+                from PostBox. For jailed users, this means you can download and
+                apply your favorite jailbreak themes straight from your device!
+            </p>
+            <h3>A pool of feeds</h3>
+            <p>
+                Enjoy a lively feed of various sources to always stay connected
+                with the jailbreak scene, featuring r/jailbreak, r/iOSthemes,
+                and iDownloadBlog. Sources are updated in real time so you don't
+                miss out.
+            </p>
+            <h3>Package rating and review</h3>
+            <p>
+                Leave feedback on packages and let other users know the tips and
+                experiences of using them.
+            </p>
+            <h3>Add and manage repos</h3>
+            <p>
+                PostBox contains over 200 repos for efficient repo finding.
+                Effortlessly look for information that will previously require
+                painstaking work for if you are not jailbroken.
+            </p>
+            <hr />
+            <p>
+                Want more information? Check out those links to learn more about
+                PostBox.
+            </p>
+            <p><a href="postbox.news">PostBox</a></p>
+            <p><a href="https://discord.gg/5rP7f7jxjf">Discord</a></p>
+            <p><a href="https://twitter.com/PostBoxTeam">Twitter</a></p>
+            <p>
+                <a
+                    href="https://www.youtube.com/channel/UCh3SOwAPYGj-65rsp-Du65Q"
+                    >YouTube</a
+                >
+            </p>
+
+            <div class="screenshots">
+                <img src="./app/screenshot1.png" />
+                <img src="./app/screenshot2.png" />
+                <img src="./app/screenshot3.png" />
+                <img src="./app/screenshot4.png" />
+                <div class="fill">.</div>
+            </div>
+
+            <br />
+
+            <div class="changelog">
+                <h1>Changelog</h1>
+                <hr />
+
+                <div class="changelog-header">
+                    <h3>PostBox 0.8.1</h3>
+                    <span>8.28.22</span>
+                </div>
+
+                <h3 id="new-features">New Features</h3>
+                <h4 id="general">General</h4>
+                <ul>
+                    <li>
+                        Everything...don't think people look at the old fallback
+                        depictions anyways...
+                    </li>
+                </ul>
+
+                <div class="changelog-header">
+                    <h3>PostBox 0.8</h3>
+                    <span>7.29.22</span>
+                </div>
+
+                <h3 id="new-features">New Features</h3>
+                <h4 id="general">General</h4>
+                <ul>
+                    <li>Everything</li>
+                </ul>
+
+                <!-- new version divider here -->
+
+                <div class="changelog-header">
+                    <h3>PostBox 0.7</h3>
+                    <span>8.1.21</span>
+                </div>
+
+                <h3 id="new-features">New Features</h3>
+                <h4 id="general">General</h4>
+                <ul>
+                    <li>
+                        New Splash Screen (only shows up when installing for the
+                        first time or reinstalling)
+                    </li>
+                    <li>Brand new section header design</li>
+                    <li>Improved SF symbols</li>
+                    <li>App-wide custom accent color</li>
+                    <li>App-wide blur effects</li>
+                    <li>New placeholder images</li>
+                    <li>
+                        Removed Splash Banners for Today, Packages, and Repos
+                        tab
+                    </li>
+                    <li>
+                        Improved easing and damping value for all animations
+                    </li>
+                </ul>
+                <h4 id="sharing-is-caring">Sharing is caring</h4>
+                <ul>
+                    <li>
+                        PostBox can now open links to repos and packages using
+                        the prefix (postbox://[package|repo]/[id|url])
+                    </li>
+                </ul>
+                <h4 id="stories">Stories</h4>
+                <ul>
+                    <li>Revamped the design of Stories</li>
+                    <li>
+                        Clicking on a story banner will allow you to view it
+                        fullscreen
+                    </li>
+                    <li>You can now save and share story banner images!</li>
+                    <li>
+                        Stories now renders properly (previously require
+                        scrolling for them to show up)
+                    </li>
+                    <li>Minor changes to redacted cards for loading</li>
+                    <li>Today View simply looks better</li>
+                    <li>
+                        Stories now receive a hovering task bar that is more
+                        accessible and gets out of the way when reading content
+                    </li>
+                    <li>Improved animations when reacting to Stories</li>
+                    <li>
+                        You can now read entire article for iDownloadBlog
+                        (images not supported)
+                    </li>
+                    <li>Relocated and revamped author information</li>
+                    <li>Relocated Tags to Navigation Bar</li>
+                    <li>
+                        Added design for author profile images (coming in Beta
+                        8)
+                    </li>
+                </ul>
+                <h4 id="today">Today</h4>
+                <ul>
+                    <li>Renamed tab to "Today" (previously named "Home")</li>
+                    <li>Revamped view layout</li>
+                    <li>Added context menu when holding on a Story Card</li>
+                    <li>
+                        Added guides (coming soon) when tapping on "Contribute
+                        to PostBox"
+                    </li>
+                    <li>Revamped the design for Tags</li>
+                    <li>New scroll to refresh indicator</li>
+                </ul>
+                <h4 id="packages">Packages</h4>
+                <ul>
+                    <li>Revamped the design of package depictions</li>
+                    <li>All new package card design</li>
+                    <li>
+                        Clicking on a story banner will allow you to view it
+                        fullscreen
+                    </li>
+                    <li>You can now save and share story banner images!</li>
+                    <li>Reviews will now show the average rating score</li>
+                    <li>Review Cards are fully expanded</li>
+                    <li>Top Curated packages is now displayed – go curate!</li>
+                    <li>Lists are redesigned</li>
+                    <li>Implemented context menus</li>
+                    <li>
+                        Package depictions now receive a hovering task bar that
+                        is more accessible and gets out of the way when reading
+                        content
+                    </li>
+                    <li>
+                        Categories now have their own sections in the main
+                        Packages tab
+                    </li>
+                    <li>
+                        New package icon display when they are not loaded or
+                        unavailable
+                    </li>
+                    <li>New icons for network error</li>
+                </ul>
+                <h4 id="repos">Repos</h4>
+                <ul>
+                    <li>All new repo card design</li>
+                    <li>Export all repos (finally here I know)</li>
+                    <li>Revamped featured package cards when browsing repos</li>
+                    <li>Improved Sign-In button</li>
+                    <li>Implemented context menus</li>
+                    <li>Lists are redesigned</li>
+                    <li>Temporarily removed Piracy Story</li>
+                    <li>Added automatic loading when browsing "Find Repos"</li>
+                    <li>
+                        "Find Repos" now shows the total of repositories
+                        available for adding
+                    </li>
+                    <li>New icons for network error</li>
+                    <li>New scroll to refresh indicator</li>
+                </ul>
+                <h4 id="settings">Settings</h4>
+                <ul>
+                    <li>Settings is now accessible in each tab</li>
+                    <li>New Settings symbol</li>
+                    <li>Reorganized settings options</li>
+                    <li>New accent color picker for iOS 14 and up users</li>
+                    <li>OLED and Reduce Motion modes (coming in Beta 8)</li>
+                    <li>You can now see a list of signed in repositories</li>
+                    <li>
+                        Pressing on the Donate options now directly opens our
+                        Ko-fi page
+                    </li>
+                    <li>Revamped the design of Credits</li>
+                    <li>
+                        Brought back disclaimer information on the bottom of
+                        Settings
+                    </li>
+                    <li>
+                        Added option to disable/enable reader view when
+                        redirecting to websites
+                    </li>
+                </ul>
+                <h4 id="backend">Backend</h4>
+                <ul>
+                    <li>Launching is now more stable</li>
+                </ul>
+                <h3 id="known-issues">Known Issues</h3>
+                <ul>
+                    <li>Filter View is unstable – will be back in next beta</li>
+                    <li>
+                        Stories and Depictions may have large bottom padding
+                    </li>
+                    <li>
+                        Curated packages loading times may be stalled by other
+                        heavy (looks terrible)
+                    </li>
+                </ul>
+
+                <!-- new version divider here -->
+
+                <div class="changelog-header">
+                    <h3>PostBox 0.6</h3>
+                    <span>4.7.21</span>
+                </div>
+
+                <h4 id="front-end">Front-End</h4>
+                <ul>
+                    <li>Improved appicon design</li>
+                    <li>Improved first launch Splash Screen</li>
+                    <li>Improved Splash Screen design</li>
+                    <li>Improved app accent color</li>
+                    <li>Improved text readability</li>
+                    <li>Improved header colors</li>
+                    <li>Improved design consistency of all images</li>
+                    <li>Improved SF Symbol choices</li>
+                    <li>Improved damping values for animations</li>
+                    <li>Improved Scroll View height logic</li>
+                    <li>Improved app action pop-up design</li>
+                    <li>Improved button colors</li>
+                    <li>Improved layout of Reddit Cards</li>
+                    <li>Fixed many typos in UI</li>
+                    <li>
+                        Fixed margin padding on all iOS Devices (now adaptive)
+                    </li>
+                    <li>Fixed action sheet and alert button colors</li>
+                    <li>Added close button to Splash Screen</li>
+                    <li>Added app version identifier in Settings</li>
+                    <li>Added image for external sources in Filter</li>
+                    <li>
+                        Added ability to collapse and expand options in Filter
+                    </li>
+                    <li>
+                        Added new Splash Screen for iPad (removed app
+                        functionality)
+                    </li>
+                    <li>Reduced image size</li>
+                    <li>Removed dedicated refresh button in Repos View</li>
+                    <li>Removed Experimental section in Settings</li>
+                    <li>Relocated Filter button to Navigation Bar</li>
+                    <li>Optimized UI logic</li>
+                </ul>
+                <h4 id="back-end">Back-End</h4>
+                <ul>
+                    <li>Improved quit logic on “Quit Postbox"</li>
+                    <li>Implemented Merge External Sources function</li>
+                    <li>Firestore-based backend/caching</li>
+                    <li>Package reviews</li>
+                    <li>Removed unused dependencies</li>
+                    <li>Allowing downloading purchased tweaks</li>
+                    <li>Other stability improvements</li>
+                </ul>
+
+                <!-- new version divider here -->
+
+                <div class="changelog-header">
+                    <h3>PostBox 0.5</h3>
+                    <span>2.13.21</span>
+                </div>
+
+                <h4 id="front-end">Front-End</h4>
+                <ul>
+                    <li>Improved header style for card sections</li>
+                    <li>Improved font sizes throughout interface</li>
+                    <li>Improved image sizing on all views</li>
+                    <li>Improved button contrast</li>
+                    <li>Improved depictions padding</li>
+                    <li>Improved iDownloadBlog card layout</li>
+                    <li>Improved button design for Packages and Repos Views</li>
+                    <li>Improved divider appearance</li>
+                    <li>Improved list view layout</li>
+                    <li>Improved app color scheme</li>
+                    <li>Improved image for Donate View</li>
+                    <li>Improved footer design for Story View</li>
+                    <li>Improved footer design for depictions</li>
+                    <li>Improved Settings tab layout</li>
+                    <li>Improved pull to refresh icons</li>
+                    <li>Implemented new tag design</li>
+                    <li>Implemented Tag View when tapping on tags</li>
+                    <li>Implemented blur on Banners</li>
+                    <li>Implemented new symbols throughout interface</li>
+                    <li>Implemented new tag design</li>
+                    <li>Added dynamic blur to all Splash Views</li>
+                    <li>Added 104 easter egg text options</li>
+                    <li>
+                        Added "Splice External Sources" option to Filter View
+                        (Deactivated)
+                    </li>
+                    <li>
+                        Tapping on card section headers now brings user to the
+                        subview
+                    </li>
+                    <li>Repositioned Navigation Bar items</li>
+                    <li>
+                        Single items in depiction screenshots are now centered
+                    </li>
+                    <li>Temporarily removed option to change app icon</li>
+                </ul>
+                <h4 id="back-end">Back-End</h4>
+                <ul>
+                    <li>
+                        Implemented ability to import repos from Cydia, Zebra,
+                        and Sileo
+                    </li>
+                    <li>Implemented package linking in Stories</li>
+                    <li>Fixed unresponsive buttons</li>
+                    <li>Fixed crashing when adding a repo</li>
+                    <li>Fixed video sizes in Screenshot View</li>
+                    <li>Fixed full screen screenshots not showing</li>
+                    <li>Fixed negative package prices</li>
+                    <li>First launching app now requires a restart</li>
+                    <li>Project clean up</li>
+                </ul>
+
+                <!-- new version divider here -->
+
+                <div class="changelog-header">
+                    <h3>PostBox 0.4</h3>
+                    <span>1.18.21</span>
+                </div>
+
+                <h4 id="front-end">Front-End</h4>
+                <ul>
+                    <li>Design revamp</li>
+                    <li>Combined FAQ in Settings</li>
+                    <li>Fixed button dragging on iOS 13</li>
+                    <li>Added ”Curated Package” button to package depiction</li>
+                    <li>
+                        Fixed Navigation Bar jitter on views less than device
+                        height for some views
+                    </li>
+                    <li>
+                        Implemented "See more Packages" option for curated
+                        packages
+                    </li>
+                    <li>Implemented Apollo redirect</li>
+                    <li>Updated Splash Screen design</li>
+                </ul>
+                <h4 id="back-end">Back-End</h4>
+                <ul>
+                    <li>Implemented interactive repo content in Stories</li>
+                    <li>Implemented new text layout logic</li>
+                    <li>Implemented app action pop-up settings</li>
+                    <li>Improved Story content layout logic</li>
+                    <li>Fixed Package view not updating after adding repo</li>
+                    <li>Fixed &amp;nbsp was not rendered correctly</li>
+                    <li>
+                        Fixed links in stories are not restricted to http(s)
+                        protocols
+                    </li>
+                    <li>
+                        PackageView will now check for package existence instead
+                        of repo existence
+                    </li>
+                    <li>Project clean up</li>
+                </ul>
+
+                <div class="changelog-header">
+                    <h3>PostBox 0.1</h3>
+                    <span>12.11.20</span>
+                </div>
+
+                <ul>
+                    <li>Initial Release!</li>
+                </ul>
+            </div>
+
+            <footer>
+                <br /><br />
+                <center>PostBox</center>
+            </footer>
+        </div>
+    </body>
+</html>

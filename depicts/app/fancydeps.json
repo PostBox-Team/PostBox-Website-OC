@@ -1,0 +1,142 @@
+{
+    "minVersion": "0.1",
+    "tintColor": "#FF9500",
+    "headerImage": "https://postbox.news/depicts/app/banner.jpg",
+    "tabs": [
+        {
+            "tabname": "Details",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "# PostBox, not a package manager.\n\nPostBox brings the latest jailbreak news to your fingertips. Use PostBox to access your favorite packages and repositories while unjailbroken, all without the hassle of constantly searching on the web. With in-app .deb download and extraction, you can install themes using only your phone.\n\nKeep reading to see what PostBox has to offer!\n\n---\n\n### .deb download and extraction\n\nTired of using a PC? Try downloading and extracting packages from PostBox. For jailed users, this means you can download and apply your favorite jailbreak themes straight from your device!\n\n### A pool of feeds\n\nEnjoy a lively feed of various sources to always stay connected with the jailbreak scene, featuring r/jailbreak, r/iOSthemes, and iDownloadBlog. Sources are updated in real time so you don't miss out.\n\n### Package rating and review\n\nLeave feedback on packages and let other users know the tips and experiences of using them.\n\n### Add and manage repos\n\nPostBox contains over 200 repos for efficient repo finding. Effortlessly look for information that will previously require painstaking work for if you are not jailbroken.\n\n---\n\nWant more information? Check out those links to learn more about PostBox.\n\n[PostBox](postbox.news)\n\n[Discord](https://discord.gg/5rP7f7jxjf)\n\n[Twitter](https://twitter.com/PostBoxTeam)\n\n[YouTube](https://www.youtube.com/channel/UCh3SOwAPYGj-65rsp-Du65Q)"
+                },
+                {
+                    "class": "DepictionScreenshotsView",
+                    "itemCornerRadius": 14,
+                    "itemSize": "{180, 320}",
+                    "screenshots": [
+                        {
+                            "url": "https://postbox.news/depicts/app/screenshot1.png",
+                            "accessibilityText": "Screenshot 1"
+                        },
+                        {
+                            "url": "https://postbox.news/depicts/app/screenshot2.png",
+                            "accessibilityText": "Screenshot 2"
+                        },
+                        {
+                            "url": "https://postbox.news/depicts/app/screenshot3.png",
+                            "accessibilityText": "Screenshot 3"
+                        },
+                        {
+                            "url": "https://postbox.news/depicts/app/screenshot4.png",
+                            "accessibilityText": "Screenshot 4"
+                        }
+                    ]
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Information"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "0.8.1 (beta~8.1)",
+                    "title": "Version"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "August 28, 2022",
+                    "title": "Released"
+                },
+                {
+                    "class": "DepictionTableTextView",
+                    "text": "Different",
+                    "title": "Built"
+                },
+                {
+                    "class": "DepictionSeparatorView"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "Links"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Follow @PostBoxTeam on Twitter",
+                    "action": "https://twitter.com/postboxteam"
+                },
+                {
+                    "class": "DepictionTableButtonView",
+                    "title": "Our Official Website",
+                    "action": "https://postbox.news"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 12
+                },
+                {
+                    "class": "DepictionImageView",
+                    "URL": "https://postbox.news/CydiaIcon.png",
+                    "width": 75,
+                    "height": 75,
+                    "cornerRadius": 0,
+                    "alignment": 1
+                }
+            ],
+            "class": "DepictionStackView"
+        },
+        {
+            "tabname": "Changelog",
+            "views": [
+                {
+                    "class": "DepictionMarkdownView",
+                    "title": "#### PostBox 0.8.1\n### New Changes\n#### General\n\n- Added localization support for Simplified Chinese and Traditional Chinese\n- Refactored the word “Repository” to “Repo”\n- Changed some wording throughout the app\n- Improvements to many interface elements\n- Removed dynamic type support\n- Fixed issues in URL processing\n- Project clean up\n- Made app-wide animations snappier\n\n#### Home\n\n- Added update banner to notify if an update is available\n- Added ability to view repo loading progress when the app is refreshing\n- Added ability to change displayed time mode for “Recently Updated Packages”\n- Reduced “Recently Updated Packages” prefix from 50 to 20 to make interactions smoother\n- New loading animation during pull-to-refresh\n\n#### For You\n\n- Added ability to convert dead links into live links in stories\n- Improved card interface\n- Disabled some feeds by default\n- Fix minor edge case with auto hyperlinking\n\n#### Storyboard\n\n- Further refined the Storyboard interface\n- Added ability to import photos from device\n- Removed presets for further evaluation\n\n#### Packages\n\n- Added ability to highlight and copy text in depictions (Accelerated Depiction Rendering must be turned off)\n- Added new texts to explain the package extraction process\n- Added ability to dismiss keyboard in editing reviews\n- Added repo information to package depictions\n- Improved depiction header interface\n- Improved Review interface\n- Improved interface when installing packages\n\n#### Repos\n\n- Added back ability to remove repos from the app (I forgot to enable it in Beta 8)\n- Fixed crashing on iOS 15 and below when browsing repo\n- Fixed remove button being unresponsive on iOS 15 and below\n- Fixed time locale not taking in account of time zone\n\n#### Settings\n\n- New toggle icons\n- Added new app icons for PostBox\n- Improved Settings interface\n- Improved how Settings options operate throughout the app\n"
+                },
+                {
+                    "class": "DepictionHeaderView",
+                    "title": "What's New?"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "#### PostBox 0.8\n### New Features\n### General\n- Everything"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "#### PostBox 0.7\n### New Features\n#### General\n- New Splash Screen (only shows up when installing for the first time or reinstalling)\n- Brand new section header design\n- Improved SF symbols\n- App-wide custom accent color\n- App-wide blur effects\n- New placeholder images\n- Removed Splash Banners for Today, Packages, and Repos tab\n- Improved easing and damping value for all animations\n\n#### Sharing is caring\n- PostBox can now open links to repos and packages using the prefix (postbox://[package|repo]/[id|url])\n\n#### Stories\n- Revamped the design of Stories\n- Clicking on a story banner will allow you to view it fullscreen\n- You can now save and share story banner images!\n- Stories now renders properly (previously require scrolling for them to show up)\n- Minor changes to redacted cards for loading\n- Today View simply looks better\n- Stories now receive a hovering task bar that is more accessible and gets out of the way when reading content\n- Improved animations when reacting to Stories\n- You can now read entire article for iDownloadBlog (images not supported)\n- Relocated and revamped author information\n- Relocated Tags to Navigation Bar\n- Added design for author profile images (coming in Beta 8)\n\n#### Today\n- Renamed tab to \"Today\" (previously named \"Home\")\n- Revamped view layout\n- Added context menu when holding on a Story Card\n- Added guides (coming soon) when tapping on \"Contribute to PostBox\"\n- Revamped the design for Tags\n- New scroll to refresh indicator\n\n#### Packages\n- Revamped the design of package depictions\n- All new package card design\n- Clicking on a story banner will allow you to view it fullscreen\n- You can now save and share story banner images!\n- Reviews will now show the average rating score\n- Review Cards are fully expanded\n- Top Curated packages is now displayed – go curate!\n- Lists are redesigned\n- Implemented context menus\n- Package depictions now receive a hovering task bar that is more accessible and gets out of the way when reading content\n- Categories now have their own sections in the main Packages tab\n- New package icon display when they are not loaded or unavailable\n- New icons for network error\n\n#### Repos\n- All new repo card design\n- Export all repos (finally here I know)\n- Revamped featured package cards when browsing repos\n- Improved Sign-In button\n- Implemented context menus\n- Lists are redesigned\n- Temporarily removed Piracy Story\n- Added automatic loading when browsing \"Find Repos\"\n- \"Find Repos\" now shows the total of repositories available for adding\n- New icons for network error\n- New scroll to refresh indicator\n\n#### Settings\n- Settings is now accessible in each tab\n- New Settings symbol\n- Reorganized settings options\n- New accent color picker for iOS 14 and up users\n- OLED and Reduce Motion modes (coming in Beta 8)\n- You can now see a list of signed in repositories\n- Pressing on the Donate options now directly opens our Ko-fi page\n- Revamped the design of Credits\n- Brought back disclaimer information on the bottom of Settings\n- Added option to disable/enable reader view when redirecting to websites\n\n#### Backend\n\n- Launching is now more stable\n\n### Known Issues\n\n- Filter View is unstable – will be back in next beta\n- Stories and Depictions may have large bottom padding\n- Curated packages loading times may be stalled by other heavy (looks terrible)\n\n"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "#### PostBox 0.6\n#### Front-End\n- Improved appicon design\n- Improved first launch Splash Screen\n- Improved Splash Screen design\n- Improved app accent color\n- Improved text readability\n- Improved header colors\n- Improved design consistency of all images\n- Improved SF Symbol choices\n- Improved damping values for animations\n- Improved Scroll View height logic\n- Improved app action pop-up design\n- Improved button colors\n- Improved layout of Reddit Cards\n- Fixed many typos in UI\n- Fixed margin padding on all iOS Devices (now adaptive)\n- Fixed action sheet and alert button colors\n- Added close button to Splash Screen\n- Added app version identifier in Settings\n- Added image for external sources in Filter\n- Added ability to collapse and expand options in Filter\n- Added new Splash Screen for iPad (removed app functionality)\n- Reduced image size\n- Removed dedicated refresh button in Repos View\n- Removed Experimental section in Settings\n- Relocated Filter button to Navigation Bar\n- Optimized UI logic \n#### Back-End\n- Improved quit logic on \"Quit Postbox\"\n- Implemented Merge External Sources function\n- Firestore-based backend/caching\n- Package reviews\n- Removed unused dependencies\n- Allowing downloading purchased tweaks\n- Other stability improvements"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "#### PostBox 0.5\n#### Front-End\n- Improved header style for card sections\n- Improved font sizes throughout interface\n- Improved image sizing on all views\n- Improved button contrast\n- Improved depictions padding\n- Improved iDownloadBlog card layout\n- Improved button design for Packages and Repos Views\n- Improved divider appearance\n- Improved list view layout\n- Improved app color scheme\n- Improved image for Donate View\n- Improved footer design for Story View\n- Improved footer design for depictions\n- Improved Settings tab layout\n- Improved pull to refresh icons\n- Implemented new tag design\n- Implemented Tag View when tapping on tags\n- Implemented blur on Banners\n- Implemented new symbols throughout interface\n- Implemented new tag design\n- Added dynamic blur to all Splash Views\n- Added 104 easter egg text options\n- Added \"Splice External Sources\" option to Filter View (Deactivated)\n- Tapping on card section headers now brings user to the subview\n- Repositioned Navigation Bar items\n- Single items in depiction screenshots are now centered\n- Temporarily removed option to change app icon\n#### Back-End\n- Implemented ability to import repos from Cydia, Zebra, and Sileo\n- Implemented package linking in Stories\n- Fixed unresponsive buttons\n- Fixed crashing when adding a repo\n- Fixed video sizes in Screenshot View\n- Fixed full screen screenshots not showing\n- Fixed negative package prices\n- First launching app now requires a restart\n- Project clean up\n\n"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "#### PostBox 0.4\n#### Front-End\n- Design revamp\n- Combined FAQ in Settings\n- Fixed button dragging on iOS 13\n- Added \"Curated Package\" button to package depiction\n- Fixed Navigation Bar jitter on views less than device height for some views\n- Implemented \"See more Packages\" option for curated packages\n- Implemented Apollo redirect\n- Updated Splash Screen design\n- Type check\n#### Back-End\n- Implemented interactive repo content in Stories\n- Implemented new text layout logic\n- Implemented app action pop-up settings\n- Improved Story content layout logic\n- Fixed Package view not updating after adding repo\n- Fixed &nbsp was not rendered correctly\n- Fixed links in stories are not restricted to http(s) protocols\n- PackageView will now check for package existence instead of repo existence\n- Project clean up\n\n"
+                },
+                {
+                    "class": "DepictionMarkdownView",
+                    "markdown": "### PostBox 0.3\n#### Front-End\n - Organized Today View for better sorting experience\n - Added new graphic when Today View is empty\n - Added Wish List to Package View Navigation Bar\n - Improved More Button interface\n - Fixed typo in alert when importing from Sileo\n - Fixed background issue on Navigation Bar\n - Fixed flashing background during transition (only flashes on initialization now)\n - Changed Rounded Button style\n - Allow Repo Cards to be embedded in stories\n - Easter egg\n#### Back-End\n - Added pull to refresh content in Today View\n - Implemented Categories View\n - Fixed PostBox stories appending instead of replace in Database (bad UUID)\n - Fixed startup preferences glitch\n - Fixed blank depiction colors blank when tintColor is \"\"\n - Fixed Geometric Software Store being not compatible (error: 401) thanks @RuntimeOverflow\n - Increased package parsing speed\n\n### PostBox 0.2\n#### Front-End\n- Pressing on Tab icons now brings to root view\n- Properly centered text in Credits\n- Added FAQ sections\n- Added Wish List\n- Added Package of The Week card support\n- Added more r/jailbreak content\n- Added support for Reddit images\n- Added third-party card option toggles in Settings (Inactive)\n- Improved Filter View usability\n- Improved Search Type interface\n- Improved font size, weight, and padding in many areas\n- Improved sizing on 4.7 inches devices or smaller\n- Updated Credits and Donate layout logic\n- Updated App Log Navigation Bar\n- Updated logic for app background color\n- Updated X button in modals\n- Updated Welcome Screen content\n- Updated Welcome Screen \"Let's Go\" button background color\n- Updated animation damping\n- Fixed Navigation Bar not behaving properly on iOS 13\n- Fixed Action Sheet text not showing\n- Fixed font size of text under Navigation Bar\n- Fixed constant white text\n- Fixed Story content overflow issues\n- Fixed missing haptic feedback\n- Fixed inconsistent background color for Search View\n- Fixed unwanted animations\n- Reduced shadow intensity\n- Easter eggs\n\n#### Back-End\n\n- r/jailbreak content now opens in Reddit\n- Significantly improved speed and logic of search function\n- Improved Filter View usability\n- Fixed disabled toggles for Settings on first launch\n- Fixed improper pricing for packages\n- Fixed repos without SSL will not refresh (invalid for AppStore)\n- Fixed package redirection to package managers\n- Fixed toggle buttons activating wrong toggles\n- Fixed PostBox stories not being indexed in database/search\n- Fixed unable to browse repos in Search View on iOS 13\n- Fixed blank/incomplete depictions when no Sileo Depictions are available\n- Fixed incorrect sizing for iOS 13 Story Views\n- Fixed search not filtering through Maintainer\n\n---\n### PostBox 0.1\n#### Front-End\n\n- Initial release\n- Support for custom stories\n- Support for r/jailbreak content\n\n#### Back-End\n\n- Initial release\n- Support for custom stories\n- Support for r/jailbreak content\n\n"
+                },
+                {
+                    "class": "DepictionSpacerView",
+                    "spacing": 12
+                },
+                {
+                    "class": "DepictionImageView",
+                    "URL": "https://postbox.news/CydiaIcon.png",
+                    "width": 75,
+                    "height": 75,
+                    "cornerRadius": 0,
+                    "alignment": 1
+                }
+            ],
+            "class": "DepictionStackView"
+        }
+    ],
+    "class": "DepictionTabView"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "PostBox's Emotes",
+    "path": "emotes",
+    "emotes": [{
+            "name": "betaiconwhite",
+            "type": ".png"
+        },
+        {
+            "name": "appiconwhite",
+            "type": ".png"
+        }
+    ]
+}
